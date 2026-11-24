@@ -9,7 +9,7 @@
  * Usage: php scripts/content/lint.php
  */
 
-require __DIR__ . '/ContentPack.php';
+require_once __DIR__ . '/ContentPack.php';
 
 class ContentLint {
 

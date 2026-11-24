@@ -7,9 +7,9 @@
  * Usage: php scripts/content/seed.php
  */
 
-require __DIR__ . '/../lib/Site.php';
-require __DIR__ . '/ContentPack.php';
-require __DIR__ . '/lint.php';
+require_once __DIR__ . '/../lib/Site.php';
+require_once __DIR__ . '/ContentPack.php';
+require_once __DIR__ . '/lint.php';
 
 use Drupal\node\Entity\Node;
 use Drupal\taxonomy\Entity\Term;
